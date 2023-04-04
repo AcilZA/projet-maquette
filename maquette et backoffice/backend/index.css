@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url(./images/aa.jpeg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-image: url(./images/Gorillaz-Montreal-2022-18.jpeg);
+  border-radius: 50px;
+  width: 400px;
+  height: 500px;
+  padding: 15px;
+  
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 15px;
+  color: cyan;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#text-input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#add-button {
+  padding: 7px 9px;
+  border: none;
+  background-color: cyan;
+}
+
+.todos-container {
+  overflow-y: scroll;
+  color: aliceblue;
+  padding-left: 20px;
+}
+
+.todo-item-container {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#todo-text {
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  user-select: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: blue;
+}
+
+#edit-button,
+#delete-button {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+}

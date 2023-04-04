@@ -1,0 +1,458 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/back-to-black-demo");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.cdnfonts.com/css/friz-quadrata-std");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shojumaru&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+ul li {
+  list-style-type: none;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.slide {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.ensemble-fleche {
+  width: 600px;
+  height: 500px;
+  min-width: 300px;
+  display: flex;
+  margin: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  border: 1px solid whitesmoke;
+  width: 200px;
+  height: 10px;
+  min-width: 200px;
+  min-height: 400px;
+  transition-duration: 1000ms;
+  margin: 5px;
+  z-index: 1;
+}
+.card1 {
+  background: url(./images/cap1.jpg);
+  background-size: cover;
+}
+.card2 {
+  background: url(./images/cap2.jpg);
+  background-size: cover;
+}
+.card3 {
+  background: url(./images/cap3.jpg);
+  background-size: cover;
+}
+.card4 {
+  background: url(./images/cap4.jpg);
+  background-size: cover;
+}
+.card5 {
+  background: url(./images/cap5.jpg);
+  background-size: cover;
+}
+
+.container-xxl {
+  width: 100%;
+  padding: 0%;
+}
+
+.fa {
+  font-size: 3em !important;
+  margin: 10px;
+}
+/* .hrr {
+  height: 7px;
+  background-color: #fff;
+  border: none;
+  border-top: 3px;
+  position: relative;
+  size: "300";
+} */
+.great {
+  font-family: "Great Vibes";
+  font-size: 41px;
+  margin-top: -65px;
+}
+.d {
+  font-family: "Friz Quadrata Std", sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.Damon {
+  font-family: "Friz Quadrata Std", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 80px;
+}
+.tracklisting {
+  font-family: "Friz Quadrata Std", sans-serif;
+  font-size: 70px;
+  color: #fff;
+}
+.Track {
+  color: #fff;
+}
+.row p i {
+  font-family: "Friz Quadrata Std", sans-serif;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 40px;
+  /* border-bottom: 5px solid #6f6f6f; */
+}
+
+nav h1 {
+  color: #717171;
+  font-family: "Friz Quadrata Std", sans-serif;
+  font-size: 30px;
+}
+nav .onglets {
+  margin-top: 3px;
+  border-radius: 40px;
+  /* opacity: 0.4; */
+  font-family: "Friz Quadrata Std", sans-serif;
+  background: none;
+}
+nav .onglets a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 10px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  color: black;
+  justify-content: space-between;
+  border-radius: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Friz Quadrata Std", sans-serif;
+  justify-content: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  color: #fff;
+  background: url(./images/head.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  margin-top: -20vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./images/2back.png);
+  background-repeat: no-repeat;
+}
+.paragraphe {
+  color: #fff;
+  margin-top: 65vh;
+  padding-right: 10vh;
+
+  /* border-bottom: 1px solid white; */
+}
+.fille {
+  background: url(./images/girl.png);
+  background-size: cover;
+  width: 100%;
+  padding-left: 10vh;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  font-family: "Friz Quadrata Std", sans-serif;
+  margin-bottom: 130;
+  margin-top: -20vh;
+}
+h1 {
+  font-family: "Shojumaru", cursive;
+  font-size: x-large;
+  color: #fff;
+}
+
+.mec {
+  background: url(./images/boom.png);
+  padding-top: 20vh;
+  height: 200vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  font-family: "Friz Quadrata Std", sans-serif;
+  margin-top: -55vh;
+}
+.murdoc {
+  background: url(./images/Murdoc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Friz Quadrata Std", sans-serif;
+  padding-left: 10vh;
+  padding-bottom: 300;
+  margin-top: -150;
+}
+.deuxmecs {
+  background: url(./images/3566.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 280;
+  padding-right: 10vh;
+  margin-top: -12vh;
+}
+.mecs {
+  font-family: "Friz Quadrata Std", sans-serif;
+  margin-top: -200;
+  font-size: larger;
+  margin-right: 20;
+  color: #000;
+}
+.icon {
+  font-size: 160px;
+  color: cyan;
+  justify-content: space-between;
+}
+.fa {
+  font-size: 3em !important;
+}
+.icons {
+  padding-top: 60px;
+  font-size: 40px;
+  margin-left: 1vh;
+}
+
+.foot {
+  margin: 10px;
+}
+.hobbs {
+  font-family: "Anton", sans-serif;
+  color: #fff;
+  font-size: 80px;
+}
+.cd {
+  margin-top: -90vh;
+}
+.deuxd {
+  margin: -60px 0 0 -280px;
+  -webkit-transform: -webki-transform 1s;
+}
+.deuxd:hover {
+  -webkit-transform: rotate(360deg) translateZ(0);
+}
+footer {
+  margin-top: 40px;
+  border-top: 5px solid #6f6f6f;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 30px 100px;
+}
+footer h1 {
+  border-bottom: 1px solid white;
+  width: 20%;
+  padding-bottom: 5px;
+}
+footer .services {
+  margin-top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .services .service p {
+  max-width: 300px;
+  text-align: center;
+}
+footer #contact {
+  color: rgb(181, 181, 181);
+}
+p.bordure_verticale {
+  height: 200px;
+  padding-right: 60px;
+  border-right: 2px solid white;
+}
+
+@media screen and (max-width: 720px) {
+  .main {
+    background-color: #38292c;
+    margin-top: -60vh;
+    padding-top: 40vh;
+    padding-left: 0;
+    margin-bottom: ;
+    text-align: center;
+  }
+  .gor{
+    margin-left: -10vh;
+  }
+  .main p {
+    text-align: center;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+  .imaged {
+    margin-top: -45vh;
+    margin-bottom: 10vh;
+  }
+  .Damon {
+    margin-left: 20vh;
+    margin-right: 10vh;
+    text-align: center;
+    margin-top: -5vh;
+  }
+  .fillepar {
+    margin-left: 20vh;
+    margin-right: 10vh;
+  }
+  .slid {
+    width: 90%;
+    height: 50%;
+    margin-left: 10px;
+  }
+  .signe {
+    color: #fff;
+    background-color: #fff;
+  }
+  .niccalas {
+    text-align: center;
+    margin-left: -10vh;
+  }
+  .serviceone {
+    margin-left: -25vh;
+    mar
+    justify-content: space-between;
+  }
+  .servicetwo{
+    margin-right: -5vh;
+  }
+  
+
+  .cd p {
+    text-align: center;
+    padding-left: 30vh;
+    padding-right: 20vh;
+
+    padding-top: 30vh;
+  }
+
+  .fille {
+    text-align: center;
+    padding-top: 10vh;
+  }
+  .tourner {
+    margin-left: -20vh;
+    padding-left: 6vh;
+    width: -10%;
+  }
+  .murdoc {
+    text-align: center;
+  }
+  .deuxmecs {
+    margin-top: -30vh;
+    padding-right: 6vh;
+  }
+  .deuxmecs p {
+    font-size: smaller;
+  }
+  .deuxmecs img {
+    padding-left: 50vh;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .main {
+    padding-top: -300vh;
+    padding-bottom: 10vh;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    padding: 0%;
+  }
+  .gorri {
+  }
+  .cd {
+    margin-top: -90vh;
+    padding-bottom: 10vh;
+  }
+  .fille {
+    padding-bottom: 20vh;
+    padding-top: -40vh;
+    margin-top: -30vh;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .main {
+    width: 100%;
+    background-size: 100%;
+    font-size: larger;
+    margin-top: 0vh;
+  }
+  .cd {
+    margin-top: -53vh;
+  }
+  section img .gorri {
+    margin-top: -50vh;
+  }
+  .right {
+    margin-left: -25vh;
+
+    padding-right: 20vh;
+  }
+  .left {
+    margin-right: -25vh;
+    padding-left: 30vh;
+    padding-bottom: 10vh;
+  }
+  .fille {
+    padding-bottom: 20vh;
+    padding-top: -40vh;
+  }
+  .mec {
+    width: 100%;
+  }
+  .actu {
+    padding-left: 60vh;
+  }
+  .murdoc {
+    padding-top: 20vh;
+    padding-bottom: 60vh;
+  }
+  .deuxmecs {
+    font-size: x-large;
+  }
+}
